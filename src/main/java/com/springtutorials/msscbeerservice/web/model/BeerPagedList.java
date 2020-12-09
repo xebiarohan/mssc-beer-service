@@ -1,4 +1,4 @@
-package web.model;
+package com.springtutorials.msscbeerservice.web.model;
 
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;

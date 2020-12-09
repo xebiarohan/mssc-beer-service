@@ -1,4 +1,4 @@
-package web.model;
+package com.springtutorials.msscbeerservice.web.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

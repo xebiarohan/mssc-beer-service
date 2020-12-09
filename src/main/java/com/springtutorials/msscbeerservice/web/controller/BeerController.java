@@ -3,7 +3,7 @@ package com.springtutorials.msscbeerservice.web.controller;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import web.model.BeerDto;
+import com.springtutorials.msscbeerservice.web.model.BeerDto;
 
 import java.util.UUID;
 

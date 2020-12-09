@@ -1,6 +1,5 @@
 package com.springtutorials.msscbeerservice.web.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,11 +8,9 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-import web.model.BeerDto;
+import com.springtutorials.msscbeerservice.web.model.BeerDto;
 
 import java.util.UUID;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @WebMvcTest
 class BeerControllerTest {
