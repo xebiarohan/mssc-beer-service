@@ -5,6 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import com.springtutorials.msscbeerservice.web.model.BeerDto;
 
+import javax.validation.Valid;
 import java.util.UUID;
 
 @RestController
@@ -18,14 +19,14 @@ public class BeerController {
     }
 
     @PostMapping
-    public ResponseEntity saveBeer(@RequestBody BeerDto beerDto) {
+    public ResponseEntity saveBeer(@RequestBody @Valid BeerDto beerDto) {
 
         // todo real impl
         return new ResponseEntity(HttpStatus.CREATED);
     }
 
     @PutMapping("/{beerId}")
-    public ResponseEntity updateBeerById(@PathVariable UUID beerId, @RequestBody BeerDto beerDto) {
+    public ResponseEntity updateBeerById(@PathVariable UUID beerId, @Valid @RequestBody BeerDto beerDto) {
 
         // todo real impl
         return new ResponseEntity(HttpStatus.NO_CONTENT);
