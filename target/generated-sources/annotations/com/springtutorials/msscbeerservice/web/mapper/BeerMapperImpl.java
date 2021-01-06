@@ -9,8 +9,8 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-12-18T14:21:46+0400",
-    comments = "version: 1.3.0.Final, compiler: javac, environment: Java 14.0.2 (Private Build)"
+    date = "2021-01-05T20:10:30+0400",
+    comments = "version: 1.3.0.Final, compiler: javac, environment: Java 14.0.2 (Oracle Corporation)"
 )
 public class BeerMapperImpl implements BeerMapper {
 
